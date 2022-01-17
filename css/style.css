@@ -84,12 +84,14 @@ header a:hover {
 }
 #highlight {
   justify-content: center;
+  text-align: center;
   color: #f7d59c;
   text-transform: uppercase;
   text-decoration-style: solid;
   text-decoration-thickness: 5px;
 }
 #highlight-dark {
+  justify-content: center;
   color: #f7d59c;
   text-transform: uppercase;
   text-decoration-style: solid;
@@ -105,12 +107,12 @@ img {
 
 #about {
   text-align: center;
-  height: 500px;
+  min-height: 500px;
   background-color: #fefae0;
 }
 
 #about h1 {
-  margin-top: 20px;
+  margin-top: 90px;
   margin-bottom: 20px;
   font-size: 45px;
 }
@@ -128,7 +130,7 @@ img {
   background-color: #fefae0;
 }
 #contact h1 {
-  margin-top: 50px;
+  margin-top: 90px;
   font-size: 45px;
 }
 
