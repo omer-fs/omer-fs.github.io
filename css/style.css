@@ -4,7 +4,7 @@ body {
   line-height: 1.5;
   padding: 0;
   margin: 0;
-  background-color: white;
+  background-color: #fefae0;
 }
 
 .container {
@@ -74,7 +74,6 @@ header a:hover {
 #gallery {
   min-height: 900px;
   display: grid;
-  background-color: #fefae0;
   grid-template-columns: repeat(autofill, minmax(300px, 300px));
   justify-content: center;
   align-items: center;
@@ -108,7 +107,6 @@ img {
 #about {
   text-align: center;
   min-height: 500px;
-  background-color: #fefae0;
 }
 
 #about h1 {
@@ -126,46 +124,37 @@ img {
 
 #contact {
   min-height: 500px;
+}
+.formContainer {
+  margin: auto;
+  text-align: center;
+  width: 90%;
+}
+
+.formContainer input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
   box-sizing: border-box;
-  background-color: #fefae0;
-}
-#contact h1 {
-  margin-top: 90px;
-  font-size: 45px;
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical;
 }
 
-.cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 15px;
-  justify-content: center;
-}
-
-.cards > div {
-  text-align: center;
-  font-size: 1.2rem;
-  margin: 100px 75px;
-}
-.card-icon {
-  margin: 10px;
-  font-size: 40px;
-}
-
-.cards p {
-  font-size: 1.3rem;
-}
-
-#contact a {
-  position: fixed;
-  width: 50px;
-  height: 50px;
-  font-size: 26px;
+.formContainer input[type="submit"] {
+  background-color: #ca965c;
   color: white;
-  background: black;
-  bottom: 40px;
-  right: 50px;
-  text-align: center;
-  text-decoration: none;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formContainer input[type="submit"]:hover {
+  background-color: #876445;
 }
 
 hr {
